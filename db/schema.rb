@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_01_23_203253) do
+ActiveRecord::Schema.define(version: 2021_01_25_202642) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,11 +23,11 @@ ActiveRecord::Schema.define(version: 2021_01_23_203253) do
 
   create_table "journals", force: :cascade do |t|
     t.integer "user_id"
-    t.integer "affirmation_id"
     t.string "journal_entry"
-    t.datetime "date"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "affirmation"
+    t.string "feeling"
   end
 
   create_table "users", force: :cascade do |t|
