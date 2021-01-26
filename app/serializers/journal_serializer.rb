@@ -1,6 +1,5 @@
 class JournalSerializer < ActiveModel::Serializer
   belongs_to :user
-  belongs_to :affirmation 
 
-  attributes :id, :user_id, :affirmation_id, :journal_entry, :date
+  attributes :id, :user_id, :affirmation, :journal_entry, :created_at
 end

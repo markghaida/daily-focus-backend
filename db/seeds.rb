@@ -10,5 +10,5 @@
 User.create(username: "markymark", name: "mark")
 User.create(username: "louielou", name: "luis")
 
-Journal.create(user_id: 1, affirmation: "Affirmation 1", journal_entry: "journal entry 1")
-Journal.create(user_id: 2, affirmation: "Affirmation 2", journal_entry: "journal entry 2")
+Journal.create(user_id: 1, affirmation: "Affirmation 1", journal_entry: "journal entry 1", feeling: "sad")
+Journal.create(user_id: 2, affirmation: "Affirmation 2", journal_entry: "journal entry 2", feeling: "happy")
