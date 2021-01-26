@@ -1,6 +1,6 @@
 class UserSerializer < ActiveModel::Serializer
   has_many :journals 
   
-  attributes :username, :name 
+  attributes :username, :name, :id
 
 end
