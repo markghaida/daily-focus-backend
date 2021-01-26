@@ -11,7 +11,8 @@ class JournalsController < ApplicationController
     end 
 
     def create
-        journal.create(journal_params)
+        journal = Journal.create(journal_params)
+        render json: journal
     end
 
     private

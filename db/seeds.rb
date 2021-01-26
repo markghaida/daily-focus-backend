@@ -12,3 +12,5 @@ User.create(username: "louielou", name: "luis")
 
 Journal.create(user_id: 1, affirmation: "Affirmation 1", journal_entry: "journal entry 1", feeling: "sad")
 Journal.create(user_id: 2, affirmation: "Affirmation 2", journal_entry: "journal entry 2", feeling: "happy")
+
+puts "seeded"
