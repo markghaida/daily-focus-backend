@@ -15,6 +15,11 @@ class JournalsController < ApplicationController
         render json: journal
     end
 
+    def delete
+        journal = Journal.find(params[:id])
+        journal.destroy
+    end 
+
     private
 
     def journal_params
