@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   # resources :journals
   get '/journals', to: 'journals#index'
   get '/journals/:id', to: 'journals#show'
+  post '/journals', to: 'journals#create'
   # resources :users
   get '/users', to: 'users#index'
   get '/users/:id', to: 'users#show'
