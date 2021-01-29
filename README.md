@@ -6,11 +6,11 @@ With all the challenges occuring throughout the globe, now more than ever do we 
 
 Use the present moment to create a daily routine around randomised postive affirmation and spend a couple of minutes getting into a focused state about how the affirmation applies to your own life.
 
-Here's how to ensure a proper set-up for the backend:
+#Here's how to ensure a proper set-up for the backend:
 
 Add this line to your application's Gemfile:
 
-# Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
+Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 
 And then execute:
@@ -23,7 +23,7 @@ $ gem install rack-cors
 * Ruby version
 Ruby 2.6.1
 
-* Deployment instructions
+#Deployment instructions
 
 1. Make sure you have properly installed the Rack-Cors gem
 2. 'cd' to the "daily_focus" directory
