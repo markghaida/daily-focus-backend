@@ -1,4 +1,6 @@
-# README
+<img src="The Persent Moment GitHub ReadMe Cover.png" alt="The Present Moment" width="1200"/>
+
+## About 
 
 Welcome to The Present Moment!  Reflect, ponder, and share your postive affirmations to focus on the things that matter most to you.
 
@@ -6,7 +8,7 @@ With all the challenges occuring throughout the globe, now more than ever do we 
 
 Use the present moment to create a daily routine around randomised postive affirmation and spend a couple of minutes getting into a focused state about how the affirmation applies to your own life.
 
-#Here's how to ensure a proper set-up for the backend:
+## Set-up
 
 Add this line to your application's Gemfile:
 
@@ -19,11 +21,10 @@ $ bundle
 Or install it yourself as:
 $ gem install rack-cors
 
-
 * Ruby version
 Ruby 2.6.1
 
-#Deployment instructions
+## Deployment instructions
 
 1. Make sure you have properly installed the Rack-Cors gem
 2. 'cd' to the "daily_focus" directory
@@ -33,3 +34,10 @@ Ruby 2.6.1
 And you should be all set!
 
 Checkout the ReadMe for the front end here: https://github.com/markghaida/daily-focus-frontend
+
+## License
+
+The [MIT](https://choosealicense.com/licenses/mit/) License
+
+Copyright (C) 2021 - [Mark Ghaida](https://github.com/markghaida) 
+
